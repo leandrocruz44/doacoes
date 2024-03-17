@@ -11,7 +11,7 @@
 }
 
 .container {
-  height: 950px;
+  height: 928px;
   width: 100vw;
 }
 
@@ -47,15 +47,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 900px;
+  height: 800px;
 }
 
 .section {
-  /* border-radius: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
   margin-top: 24px;
   padding: 16px;
 }
@@ -97,7 +92,7 @@ hr {
 }
 
 .share {
-  margin-top: 32px;
+  margin-top: 64px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(15px);
@@ -113,7 +108,7 @@ hr {
 
 .field {
   display: flex;
-  gap: 48px;
+  gap: 96px;
   padding: 24px;
 }
 
