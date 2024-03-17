@@ -118,8 +118,8 @@ hr {
 }
 
 .shareButton {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -137,6 +137,6 @@ hr {
 }
 
 .shareButtonImage {
-  width: 56px;
+  width: 40px;
 }
 
