@@ -11,29 +11,37 @@
 <body>
   <div class="container">
     <header>
-      <div class="title">
-        DOAÇÕES
-      </div>
+      <a href="https://leandrocruz44.github.io/emi/">
+        <div class="back"><</div>
+      </a>
+      <a href="https://leandrocruz44.github.io/emi/">
+        <div class="title">
+          SALVE A EMI
+        </div>
+      </a>
     </header>
     <main>
+      <div id="doacoes" class="section">
+        DOAÇÕES
+      </div>
+      <hr>
       <div class="section">
-        <div class="label">
-          <div>Doe pelo Vakinha</div>
-          <hr>
-        </div>
-        <a href="https://www.vakinha.com.br/vaquinha/pela-emi-a-gatinha-mais-legal-da-zona-norte-de-sp">
+        <a href="https://www.vakinha.com.br/vaquinha/pela-emi-a-gatinha-mais-legal-da-zona-norte-de-sp" target="_blank">
           <button class="button">
             <img class="image" src="images/8666ff28cfc3e06ca4470e2d53381b1918f346bc.png" alt="simbolo do pix" srcset="">
           </button>
         </a>
       </div>
       <div class="section">
-        <div class="label">
-          <div>Doe pelo PIX</div>
-          <hr>
+        <div class="tooltip">
+          <div class="tooltiptext" id="myTooltip">Copiar PIX</div>
+          <button class="button" onclick="copyPix()" onmouseout="outFunc()">
+            <p>PIX - Clique para copiar</p>
+            <p id="pix">11954955982</p>
+          </button>
         </div>
-        11954955982
       </div>
+      <hr>
       <div class="share">
         <div class="head">Compartilhe</div>
         <div class="field">
@@ -54,5 +62,6 @@
     </main>
   </div>
 </body>
+<script src="script.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v19.0" nonce="hozUNT6v"></script>
 </html>
