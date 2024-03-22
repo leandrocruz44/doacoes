@@ -19,17 +19,17 @@ header {
   background-image: url(images/PatternBlue.png);
   height: 128px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .back {
   position: absolute;
-  top: 45px;
-  left: 490px;
+  top: 58px;
+  left: 30px;
   font-size: 32px;
   font-weight: bolder;
-  color: white;
+  color: magenta;
 }
 
 .title {
@@ -60,7 +60,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 830px;
+  height: 850px;
 }
 
 .section {
