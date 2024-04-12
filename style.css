@@ -26,10 +26,10 @@ header {
 .back {
   position: absolute;
   top: 58px;
-  left: 30px;
+  left: 15px;
   font-size: 32px;
   font-weight: bolder;
-  color: magenta;
+  color: #FFADD4;
 }
 
 .title {
@@ -63,14 +63,33 @@ main {
   height: 850px;
 }
 
+.donation-buttons {
+  display: flex;
+  gap: 56px;
+}
+
 .section {
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 16px;
 }
 
+@media only screen and (max-width: 700px) {
+  .donation-buttons {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0;
+  }
+}
+
 #doacoes {
   font-size: 32px;
+  margin: 24px 0;
 }
 
 .label {
@@ -110,7 +129,7 @@ hr {
 
 .share {
   width: 300px;
-  margin-top: 64px;
+  margin-top: 56px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(15px);
